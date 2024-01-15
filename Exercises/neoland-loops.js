@@ -12,7 +12,7 @@ for (let i=0; i<products.length; i++){
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#2: Condicionales avanzados
 
-const alumns = [
+/* const alumns = [
     {name: 'Pepe Viruela', T1: false, T2: false, T3: true}, 
 	{name: 'Lucia Aranda', T1: true, T2: false, T3: true},
 	{name: 'Juan Miranda', T1: false, T2: true, T3: true},
@@ -38,4 +38,14 @@ alumns.forEach((alumns)=>{
 
 })
 
-console.log(alumns);
+console.log(alumns); */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#3: Probando For...of
+
+const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
+
+for (cities of placesToTravel) {
+    console.log(cities);
+}
