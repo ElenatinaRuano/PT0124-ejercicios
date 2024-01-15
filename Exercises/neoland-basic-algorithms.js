@@ -37,7 +37,7 @@ console.log(car2.finalPrice); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#3
-console.log(10*5);
+/* console.log(10*5);
 console.log(10/2);
 console.log(15%9);
 
@@ -47,5 +47,31 @@ let o = p+j;
 
 let c =10;
 let m = 5;
-let i = 10*5;
+let i = 10*5; */
 
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0]);
+
+avengers[0]="IRONMAN";
+console.log(avengers);
+
+console.log(avengers.length);
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty");
+rickAndMortyCharacters.push("Summer");
+console.log(rickAndMortyCharacters);
+console.log(rickAndMortyCharacters[rickAndMortyCharacters.length-1]);
+
+rickAndMortyCharacters.push("Lapiz Lopez")
+console.log(rickAndMortyCharacters);
+rickAndMortyCharacters.pop() 
+console.log(`El primer elemento de la lista es ${rickAndMortyCharacters[0]}`);
+console.log(`El últumo elemento de la lista es ${rickAndMortyCharacters[rickAndMortyCharacters.length-1]}`);
+
+rickAndMortyCharacters.push("Lapiz Lopez")
+rickAndMortyCharacters.splice(1,1);
+console.log(rickAndMortyCharacters);
