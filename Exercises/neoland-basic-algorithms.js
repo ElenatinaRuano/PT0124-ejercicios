@@ -51,7 +51,7 @@ let i = 10*5; */
 
 
 
-//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4 (en GIT me he equivocado y he subido dos veces la Iteracion3)
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 console.log(avengers[0]);
 
@@ -75,3 +75,4 @@ console.log(`El últumo elemento de la lista es ${rickAndMortyCharacters[rickAnd
 rickAndMortyCharacters.push("Lapiz Lopez")
 rickAndMortyCharacters.splice(1,1);
 console.log(rickAndMortyCharacters);
+
