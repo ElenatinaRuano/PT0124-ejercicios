@@ -52,8 +52,8 @@ for (cities of placesToTravel) {
 
 
 
-//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#3: Probando For...in
-const alien = {
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4: Probando For...in
+/* const alien = {
     name: 'Wormuck',
     race: 'Cucusumusu',
     planet: 'Eden',
@@ -62,4 +62,18 @@ const alien = {
 
 for (things in alien) {
     console.log(`${things} : ${alien[things]}`);
+} */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#5: Probando For
+const placesToTravel = [{id: 5, name: 'Japan'}, {id: 11, name: 'Venecia'}, {id: 23, name: 'Murcia'}, {id: 40, name: 'Santander'}, {id: 44, name: 'Filipinas'}, {id: 59, name: 'Madagascar'}]
+
+for (let i=0; i<placesToTravel.length; i++){
+    if (placesToTravel[i].id == 11 || placesToTravel[i].id == 40){
+        placesToTravel.splice(i,1)
+        i -- //Como eliminamos un item de la lista, necesitamos restar 1 al valor de 1 para que el bucle no se "salte" ningun objeto de la lista
+    }
 }
+
+console.log(placesToTravel);
