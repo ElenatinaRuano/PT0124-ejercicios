@@ -12,7 +12,7 @@ console.log(); */
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#𝟮
 
-const character = {name: 'Jack Sparrow', age: 10};
+/* const character = {name: 'Jack Sparrow', age: 10};
 character.age = 25;
 console.log(character.age);
 
@@ -32,6 +32,20 @@ globalBasePrice = 25000;
 car1.finalPrice = car1.basePrice + globalBasePrice;
 car2.finalPrice = car2.basePrice + globalBasePrice;
 console.log(car1.finalPrice);
-console.log(car2.finalPrice);
+console.log(car2.finalPrice); */
 
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#3
+console.log(10*5);
+console.log(10/2);
+console.log(15%9);
+
+let p = 10;
+let j = 5;
+let o = p+j;
+
+let c =10;
+let m = 5;
+let i = 10*5;
 
