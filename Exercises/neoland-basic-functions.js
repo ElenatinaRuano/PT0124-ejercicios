@@ -87,7 +87,7 @@ console.log(averageWord(mixedElements)); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#6: Valores únicos
-const duplicates = [
+/* const duplicates = [
     'sushi',
     'pizza',
     'burger',
@@ -111,4 +111,33 @@ function removeDuplicates(param) {
     return newArray;
 }
 
-console.log(removeDuplicates(duplicates));
+console.log(removeDuplicates(duplicates)); */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#7: Buscador de nombres
+const nameFinder = [
+    'Peter',
+    'Steve',
+    'Tony',
+    'Natasha',
+    'Clint',
+    'Logan',
+    'Xabier',
+    'Bruce',
+    'Peggy',
+    'Jessica',
+    'Marc'
+    ];
+
+function finderName(lista, nombre) {
+    if (lista.includes(nombre)){
+        return `TRUE. El nombre "${nombre}" está en la lista en el pusto ${lista.indexOf(nombre)+1}`
+    }
+    else{
+        return `FALSE. El nombre "${nombre}" no está en la lista`
+    }
+};
+
+console.log(finderName(nameFinder, "Peggy"));
+console.log(finderName(nameFinder, "Elena"));
