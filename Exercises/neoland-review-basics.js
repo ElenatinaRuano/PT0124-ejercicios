@@ -104,9 +104,36 @@ console.log(findArrayIndex(listaElemplo, "Caracol"));
  */
 
 
+
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#5: Función rollDice
-function rollDice(caras) {
+/* function rollDice(caras) {
     return Math.floor(Math.random() * caras) + 1;
 }
 
 console.log(rollDice(6));
+ */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#6: Función swap
+function swap(lista, indexUno, indexDos) {
+    let nuevaLista = [];
+
+    for (let i=0; i<lista.length; i++){
+        if (i == indexUno){
+            nuevaLista.push(lista[indexDos]);
+        }
+        else if (i == indexDos){
+            nuevaLista.push(lista[indexUno]);
+        }
+        else{
+            nuevaLista.push(lista[i]);
+        }
+    }
+    return nuevaLista
+}
+
+let ejemploLista = ['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño', 'Sergio Ramos', 'Zidane']
+
+console.log(swap(ejemploLista,0,3));
+console.log(ejemploLista[0]);
