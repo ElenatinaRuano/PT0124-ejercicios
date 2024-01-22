@@ -21,7 +21,7 @@ console.log(categories); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#2: Mix Fors
-const users = [
+/* const users = [
     {name: 'Manolo el del bombo',
         favoritesSounds: {
             waves: {format: 'mp3', volume: 50},
@@ -50,7 +50,7 @@ const users = [
             firecamp: {format: 'mp3', volume: 60},
         }
     },
-]
+] */
 
 
 /* let mediaVolumen = 0;
@@ -70,7 +70,7 @@ console.log(mediaVolumen); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#3: Mix Fors
-let sonidosFavoritos = {};
+/* let sonidosFavoritos = {};
 
 for (let user of users){
     for(let sonido in user["favoritesSounds"]){
@@ -83,4 +83,21 @@ for (let user of users){
     }
 }
 
-console.log(sonidosFavoritos);
+console.log(sonidosFavoritos); */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4: Métodos findArrayIndex
+function findArrayIndex(lista, texto) {
+    if(lista.includes(texto)){
+        return `La palabra ${texto} esta en la lista en la posición ${lista.indexOf(texto)}`;
+    }
+    else{
+        return `La palabra ${texto} no esta en la lista`;
+    }
+}
+
+let listaElemplo = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'];
+console.log(findArrayIndex(listaElemplo, "Perro"));
+console.log(findArrayIndex(listaElemplo, "Salamandra"));
+console.log(findArrayIndex(listaElemplo, "Caracol"));
