@@ -116,7 +116,7 @@ console.log(removeDuplicates(duplicates)); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#7: Buscador de nombres
-const nameFinder = [
+/* const nameFinder = [
     'Peter',
     'Steve',
     'Tony',
@@ -140,4 +140,37 @@ function finderName(lista, nombre) {
 };
 
 console.log(finderName(nameFinder, "Peggy"));
-console.log(finderName(nameFinder, "Elena"));
+console.log(finderName(nameFinder, "Elena")); */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#8: Contador de repeticiones
+const counterWords = [
+    'code',
+    'repeat',
+    'eat',
+    'sleep',
+    'code',
+    'enjoy',
+    'sleep',
+    'code',
+    'enjoy',
+    'upgrade',
+    'code'
+    ];
+
+function repeatCounter(lista) {
+    let listaCopias = {};
+
+    for (const item of lista) {
+        if(item in listaCopias){
+            listaCopias[item]+=1;
+        }
+        else{
+            listaCopias[item] = 1;
+        }
+    }
+    return listaCopias;
+}
+
+console.log(repeatCounter(counterWords));
