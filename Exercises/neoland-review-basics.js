@@ -53,7 +53,7 @@ const users = [
 ]
 
 
-let mediaVolumen = 0;
+/* let mediaVolumen = 0;
 let volumenTotal = 0;
 let dividendo = 0; //Necesitamos saber cuantos elementos hay para hallar la media
 
@@ -65,9 +65,22 @@ for(let user of users){
 }
 
 mediaVolumen = volumenTotal / dividendo;
-console.log(mediaVolumen);
-console.log(users[1].favoritesSounds);
+console.log(mediaVolumen); */
 
 
 
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#3: Mix Fors
+let sonidosFavoritos = {};
 
+for (let user of users){
+    for(let sonido in user["favoritesSounds"]){
+        if(sonido in sonidosFavoritos){
+            sonidosFavoritos[sonido]++;
+        }
+        else{
+            sonidosFavoritos[sonido] = 1
+        }
+    }
+}
+
+console.log(sonidosFavoritos);
