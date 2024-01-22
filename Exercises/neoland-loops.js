@@ -38,7 +38,7 @@ alumns.forEach((alumns)=>{
 
 })
 
-console.log(alumns); */
+console.log(alumns); */        
 
 
 
