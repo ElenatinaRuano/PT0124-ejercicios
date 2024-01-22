@@ -37,7 +37,7 @@ console.log(findLongestWord(avengers)); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#3: Calcular la suma
-const numbers = [1, 2, 3, 5, 45, 37, 58];
+/* const numbers = [1, 2, 3, 5, 45, 37, 58];
 
 function sumAll(param) {
     let sum = 0;
@@ -47,4 +47,20 @@ function sumAll(param) {
     return sum;
 }
 
-console.log(sumAll(numbers));
+console.log(sumAll(numbers)); */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4: Calcular el promedio
+const numbers = [12, 21, 38, 5, 45, 37, 6];
+function average(param) {
+    let sum = 0;
+    let media = 0;
+    for (let number of param){
+        sum += number;
+        media ++;
+    }
+    return sum/media;
+}
+
+console.log(average(numbers))
