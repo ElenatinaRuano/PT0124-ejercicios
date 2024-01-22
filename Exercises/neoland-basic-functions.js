@@ -68,7 +68,7 @@ console.log(average(numbers)) */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#5: Calcular promedio de string
-const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+/* const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
 function averageWord(param) {
     let sum = 0;
     for (let item of param){
@@ -82,4 +82,33 @@ function averageWord(param) {
     return sum;
 }
 
-console.log(averageWord(mixedElements));
+console.log(averageWord(mixedElements)); */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#6: Valores únicos
+const duplicates = [
+    'sushi',
+    'pizza',
+    'burger',
+    'potatoe',
+    'pasta',
+    'ice-cream',
+    'pizza',
+    'chicken',
+    'onion rings',
+    'pasta',
+    'soda'
+    ];
+    
+function removeDuplicates(param) {
+    let newArray = [];
+    for (let item of param){
+        if (!newArray.includes(item)) {
+            newArray.push(item);
+        }
+    }
+    return newArray;
+}
+
+console.log(removeDuplicates(duplicates));
