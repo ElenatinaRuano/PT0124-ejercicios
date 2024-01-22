@@ -52,7 +52,7 @@ console.log(sumAll(numbers)); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4: Calcular el promedio
-const numbers = [12, 21, 38, 5, 45, 37, 6];
+/* const numbers = [12, 21, 38, 5, 45, 37, 6];
 function average(param) {
     let sum = 0;
     let media = 0;
@@ -63,4 +63,23 @@ function average(param) {
     return sum/media;
 }
 
-console.log(average(numbers))
+console.log(average(numbers)) */
+
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#5: Calcular promedio de string
+const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+function averageWord(param) {
+    let sum = 0;
+    for (let item of param){
+        if (typeof item == "number") {
+            sum += item
+        }
+        else {
+            sum += item.length;
+        }
+    }
+    return sum;
+}
+
+console.log(averageWord(mixedElements));
