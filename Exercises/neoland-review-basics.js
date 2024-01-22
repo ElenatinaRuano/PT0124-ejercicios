@@ -88,7 +88,7 @@ console.log(sonidosFavoritos); */
 
 
 //* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#4: Métodos findArrayIndex
-function findArrayIndex(lista, texto) {
+/* function findArrayIndex(lista, texto) {
     if(lista.includes(texto)){
         return `La palabra ${texto} esta en la lista en la posición ${lista.indexOf(texto)}`;
     }
@@ -101,3 +101,12 @@ let listaElemplo = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'];
 console.log(findArrayIndex(listaElemplo, "Perro"));
 console.log(findArrayIndex(listaElemplo, "Salamandra"));
 console.log(findArrayIndex(listaElemplo, "Caracol"));
+ */
+
+
+//* 𝗜𝘁𝗲𝗿𝗮𝗰𝗶ó𝗻#5: Función rollDice
+function rollDice(caras) {
+    return Math.floor(Math.random() * caras) + 1;
+}
+
+console.log(rollDice(6));
