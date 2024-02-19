@@ -1,0 +1,130 @@
+
+#mainPokequiz{
+    height: calc(100vh - 700px);
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: black;
+    
+}
+
+#main-container{
+    background: linear-gradient(360deg, rgba(255,255,255,1) 50%, var(--randomColor) 50%);
+    border: 13px solid black;
+    width: 80%;
+    height: 80%;
+    max-width: 1300px;
+    border-radius: 15%;
+    margin-top:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(69, 71, 72, 0.4) 0px 3px 4px 0px, rgba(60, 64, 67, 0.4) 0px 4px 8px 4px;
+}
+
+#question-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#question-QUIZ{
+    font-size: 40px;
+    width: 100%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#answer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.answer-box{
+    display: flex;
+    list-style-type: none;
+    height: 7vh;
+    width: 15vw;
+    max-width: 250px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(220, 219, 219);
+    border-radius: 8%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+#true{
+    top:710px;
+    left: 30vw;
+}
+
+#false{
+    top:710px;
+    right: 30vw;
+}
+
+.answer-box:hover{
+    background-color: orange;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
+
+#points{
+    height: 50px;
+    position: absolute;
+    margin-top: 100px;
+    top: 230px;
+    font-style: italic;
+    left: 43vw;
+}
+
+.quizButtoms {
+    height: 30px;
+    width: 80px;
+    position: fixed;
+    margin-top: 350px;
+    left: 48%;
+    font-style: italic;
+    font-size: 15px;
+    border-radius: 8%;
+    background-color: rgb(220, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+#next:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
+
+.end{
+    height: 40px;
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#question-QUIZ{
+    padding-bottom: 170px;
+}
+
+
+
+
+

@@ -1,0 +1,113 @@
+#filterButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 10px;
+    background-color: #1C1C1C;
+    padding-top:15px;
+}
+
+#filterByName{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;;
+}
+
+.buttonFilter {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: white;
+}
+
+.grass {
+    background-color: #63bb5b75;
+    border: 2px solid #63bb5b;
+}
+
+.bug {
+    background-color: #8fc12c80;
+    border: 2px solid #8fc12c;
+}
+
+.dark {
+    background-color: #5a536687;
+    border: 2px solid #5a5366;
+}
+
+.dragon {
+    background-color: #0a6dc482;
+    border: 2px solid #0a6dc4;
+}
+
+.electric {
+    background-color: #f3d13b75;
+    border: 2px solid #f3d13b;
+}
+
+.fairy {
+    background-color: #ec8fe67e;
+    border: 2px solid #ec8fe6;
+}
+
+.fighting {
+    background-color: #ce406884;
+    border: 2px solid #ce4068;
+}
+
+.fire {
+    background-color: #ff9b546f;
+    border: 2px solid #ff9b54;
+}
+
+.flying {
+    background-color: #8fa8dd7c;
+    border: 2px solid #8fa8dd;
+}
+
+.ghost {
+    background-color: #5269ac7e;
+    border: 2px solid #5269ac;
+}
+
+.ground {
+    background-color: #d977467c;
+    border: 2px solid #d97746;
+}
+
+.ice {
+    background-color: #74cec17e;
+    border: 2px solid #74cec1;
+}
+
+.normal {
+    background-color: #9099a17b;
+    border: 2px solid #9099a1;
+}
+
+.poison {
+    background-color: #aa6ac87a;
+    border: 2px solid #aa6ac8;
+}
+
+.psychic {
+    background-color: #f971767e;
+    border: 2px solid #f97176;
+}
+
+.rock {
+    background-color: #c7b78b78;
+    border: 2px solid #c7b78b;
+}
+
+.steel {
+    background-color: #5a8ea17e;
+    border: 2px solid #5a8ea1;
+}
+
+.water {
+    background-color: #4d91d575;
+    border: 2px solid #4d91d5;
+}

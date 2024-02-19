@@ -1,0 +1,12 @@
+:root {
+    --randomColor:red;
+}
+
+html{
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+}
+

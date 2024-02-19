@@ -1,0 +1,76 @@
+/*EJERCICIO: Background*/
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    background-attachment: fixed;
+}
+.content {
+    background-color: blue;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
+/*EJERCICIO: Selector de clases */
+.small{
+    font-size:9px;
+}
+
+
+/*EJERCICIO: Fuentes en linea*/
+.myTitle {
+	font-family: 'Protest Guerrilla', sans-serif;
+    background-color: aquamarine;
+}
+
+
+/*EJERCICIO: Color / Background*/
+h1{
+    color: #c92a2a
+}
+
+h2{
+    color: #a61e4d;
+}
+
+.first, .second{
+    color: #364fc7;
+    color: black;
+}
+
+.second{
+    border-bottom: 1px solid #c92a2a;
+}
+
+
+/*EJERCICIO: Margin y padding Basics*/
+#marginYPadding{  /*esto es solo para separar un poco los ejercicios en la web*/
+    margin-top: 50px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    background: pink;
+    border: 3px solid black;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+}
+
+.two {
+    display: flex;
+    background: lightblue;
+    border: 3px solid black;
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    float: right;
+    background: peachpuff;
+    border: 3px solid black;
+    width: 200px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 0px;
+}
