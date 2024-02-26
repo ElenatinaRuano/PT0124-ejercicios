@@ -36,6 +36,7 @@ export const printTemplateDashboard = () => {
 
     /**Para la nav, que la habiamos ocultado en la pantalla de LOGIN, le devolvemos el valor flex para que se renderice */
     document.querySelector("nav").style.display = "flex";
+    document.getElementById("div-change-color").style.display = "flex";
 
     /** metemos los escuchadores de la pagina */
     addEventListeners();

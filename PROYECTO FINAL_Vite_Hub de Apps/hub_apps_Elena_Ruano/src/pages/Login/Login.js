@@ -79,5 +79,6 @@ export const Login = () => {
     /**Si abrimos el login debemos ocultar la barra nav */
     document.querySelector("nav").style.display="none";
     document.querySelector("main").innerHTML = template();
+    document.getElementById("div-change-color").style.display = "flex";
     addListeners();
 };

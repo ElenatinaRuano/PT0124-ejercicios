@@ -49,10 +49,6 @@ main {
         justify-items: center;
     }
     
-    input{
-        width: 230px;
-        height: 30px;
-    }
     
     button{
         width: 100px;

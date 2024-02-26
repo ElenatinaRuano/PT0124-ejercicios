@@ -10,3 +10,15 @@ button {
     cursor: pointer;
 }
 
+#username{
+    border: 0;
+    border-bottom: 2px solid var(--randomColor);
+    width: 80%;
+    font-size: 20px;
+    line-height: 35px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+    color: var(--randomColor);
+}
