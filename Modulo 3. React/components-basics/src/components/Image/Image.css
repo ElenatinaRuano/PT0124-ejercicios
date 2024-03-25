@@ -1,0 +1,6 @@
+img {
+    border-radius: 20%;
+    box-shadow: rgba(253, 70, 143, 0.25) 0px 34px 35px, rgba(155, 67, 255, 0.304) 0px -12px 30px, rgba(226, 83, 255, 0.12) 0px 4px 6px, rgba(39, 113, 251, 0.17) 0px 12px 13px, rgba(255, 45, 129, 0.09) 0px -3px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
