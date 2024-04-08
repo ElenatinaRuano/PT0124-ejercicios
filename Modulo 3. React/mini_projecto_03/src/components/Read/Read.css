@@ -1,0 +1,11 @@
+#books-img{
+    height: 600px;
+    width: 800px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+#book-card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

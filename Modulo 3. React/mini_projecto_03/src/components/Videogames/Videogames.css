@@ -1,0 +1,31 @@
+#videogames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+#vg-img {
+    height: 300px;
+    width: 210px;
+}
+
+h2{
+    width: 100%;
+}
+
+#vg-card{
+    border: 1px solid black;
+    padding:20px;
+    border-radius: 5%;
+}
+
+#vg-card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+}
+
+.container{
+    border-top: 3px solid rgb(178, 177, 177)
+}
