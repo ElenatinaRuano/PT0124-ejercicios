@@ -1,0 +1,33 @@
+.image_profile_1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid white 2px
+}
+
+.figure_profile_1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 50px;
+    gap: 1rem;
+    color: white;
+}
+
+.headerProfile{
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteContainer{
+    height: 1.5vh;
+    width: 2vh;
+}
+
+.userNameProfile{
+    font-size: 2vh;
+}

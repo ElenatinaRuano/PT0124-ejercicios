@@ -1,0 +1,41 @@
+.iconDeleteUser {
+    border-radius: 50%;
+}
+
+.containerNavProfile {
+    background-color: #1c1c1c1f;
+    min-height: 92vh;
+    width: 9vw;
+    display: grid;
+    position: absolute;
+    left: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navOption .iconNav{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.navOption{
+    width: 9vw;
+}
+
+.navOption:hover{
+    background-color: #00000071;
+}
+
+.navOption:visited{
+    background-color: #ffffffcf;
+}
+
+.iconNav:hover{
+    transform: scale(1.3);
+}
+
+.deleteUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

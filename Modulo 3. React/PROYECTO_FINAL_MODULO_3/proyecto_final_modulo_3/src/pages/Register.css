@@ -1,0 +1,147 @@
+.parrafoLogin {
+    margin-bottom: 40px;
+}
+
+#imagen {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+.form-wrap-color{
+    background: #05040432;
+}
+.form-wrap {
+    margin: 2rem 0 2rem 0;
+    padding: 15px 25px 30px;
+    color: rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+    text-align: center;
+}
+
+.form-wrap .form-group {
+    margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+    color: #fffcfc;
+    font-weight: normal;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #df8d00 1px solid;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    caret-color: #28075e;
+    border: solid 2px #df9400;
+}
+
+.form-wrap .form-group input:focus {
+    outline-color: #640082;
+}
+
+.form-wrap .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    background: #ffc08d;
+    color: #fff;
+    cursor: pointer;
+    border: #ef8300 1px solid;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.form-wrap .btn:hover {
+    background: #ef8300;
+    color: #f4f4f4;
+}
+
+.form-wrap .btn:focus {
+    outline-color: #9c9176;
+}
+
+.form-wrap .bottom-text {
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+.form-wrap .bottom-text a:hover {
+    text-decoration: underline;
+}
+
+.parrafoLogin {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+footer a {
+    color: #c1c1c1;
+}
+
+footer a:hover {
+    color: #cf8d00;
+}
+
+.btn:disabled {
+    background-color: navajowhite;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.sexo {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sexo .hombre {
+    border-radius: 3px 0 0 3px;
+    color: white !important;
+}
+
+.sexo .mujer {
+    color: white !important;
+}
+
+.sexo .otro {
+    border-radius: 0 3px 3px 0;
+    color: white !important;
+}
+
+.label-radio {
+    background: #7b7b7b57;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+input[type="radio"]:checked+.label-radio {
+    background: #fc8906;
+    color: #fff !important;
+}
+
+a {
+    color: #cf8d00;
+}
+
+.anchorCustom {
+    color: #cf8d00;
+}

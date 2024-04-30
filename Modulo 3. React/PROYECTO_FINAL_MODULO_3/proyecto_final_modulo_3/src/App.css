@@ -1,0 +1,13 @@
+main {
+  width: 100vw;
+  min-height: 76vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}  
+
+
+
+
+
